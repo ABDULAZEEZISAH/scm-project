@@ -24,3 +24,31 @@ Git uses hashing (SHA-1/SHA-256) to track changes, ensuring that history cannot 
 Local commits, diffs, and logs are extremely fast compared to systems that require server communication.
 5. Strong ecosystem
 Tools, integrations, and community support are massive—especially with platforms like GitHub.
+
+**Key challenges of Git**
+
+1. Steep learning curve
+Concepts like rebasing, detached HEAD, and merge conflicts can be confusing—especially for beginners.
+2. Complex merge conflicts
+While merging is powerful, resolving conflicts in large teams or complex codebases can become difficult.
+3. Storage overhead
+Since every developer has the full history, very large repositories (e.g., with binaries) can become heavy.
+4. Less intuitive for non-linear workflows
+Git’s flexibility can sometimes lead to inconsistent workflows if teams don’t enforce standards.
+
+**Comparison with other version control systems**
+
+**vs. Subversion (SVN)**
+* SVN is centralized: one main server, simpler mental model 
+* Git is distributed: more powerful but more complex 
+* Git is faster for most operations; SVN can be easier for beginners 
+  
+**vs. Mercurial**
+* Both are distributed and similar in concept 
+* Mercurial is often considered simpler and more user-friendly 
+* Git has wider adoption and a larger ecosystem 
+* 
+**vs. Perforce Helix Core**
+* Perforce handles very large repositories (e.g., game development) better 
+*Git is more flexible and widely used for general software projects 
+* Perforce is often preferred in industries needing centralized control and large binary management 
