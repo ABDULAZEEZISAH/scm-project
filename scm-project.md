@@ -246,8 +246,8 @@ Cloud platforms encrypt stored repositories on their servers. This protects data
 
 
 **What are the best practices for logging and auditing in SCM to ensure that all repository activities (e.g., commits, merges, pushes) are tracked for security purposes, and how can automated alerts notify teams of suspicious changes?**
-**
-Best practices for logging and auditing in SCM**
+
+**Best practices for logging and auditing in SCM**
 
 * Enable comprehensive audit logs:
 Record all key activities such as commits, pushes, merges, branch creation/deletion, permission changes, and login attempts. This creates a full trace of who did what and when. 
@@ -310,7 +310,6 @@ Git is adapting by:
 Advancements in DevOps, CI/CD, and automation are making Git the control center of automated software delivery.
 
 * Git as the foundation of CI/CD pipelines:
-* 
 Every commit or merge in Git will increasingly act as an automatic trigger for testing, building, and deployment through tools like Jenkins and cloud-native pipelines. This makes Git the starting point of end-to-end automation workflows. 
 
 * Faster and more frequent releases:
