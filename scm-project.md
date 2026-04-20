@@ -2,10 +2,15 @@
 **<p>SOURCE CODE MANAGEMENT RESEARCH PROJECT</p>**
 **<p>How does Git enhance source code management practices in modern software development, and what are its key advantages and challenges compared to other version control systems?</p>**
 <p>Git enhances modern source code management by enabling fast, distributed, and collaborative development, which aligns perfectly with Agile and DevOps practices. Its biggest strengths—flexibility and power—are also where its main challenges lie, particularly in terms of complexity and learning curve.</p>
-#####How Git enhances source code management
+
+**How Git enhances source code management**
+
 At its core, Git is a distributed version control system (DVCS). Every developer has a full copy of the repository, including its entire needing a network connection. 
+
 * Fast operations: Since most actions are local, they’re significantly quicker than centralized systems. 
+  
 *	Powerful branching & merging: Git makes it cheap and easy to create branches, which encourages workflows like feature branching, bug-fix branches, and experimentation without affecting the main codebase.
+
 **Key advantages of Git**
 1. Distributed architecture
 Unlike centralized systems, Git doesn’t rely on a single server. This improves reliability and resilience—if a server goes down, developers still have full copies.
